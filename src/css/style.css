@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.days{
+  color: #ec0b0b;
+  font-weight: bold;
+}
+.hours{
+  color: #ec0b0b;
+  font-weight: bold;
+}
+.minutes{
+  color: #ec0b0b;
+  font-weight: bold;
+}
+.seconds{
+  color: #ec0b0b;
+  font-weight: bold;
+}
+
+.timer {
+  padding: 10px;
+  background-color: #e9dcdc;
+  border-radius: 3px;
+  margin: 5px;
+  text-align: center;
+}
+  
+.smalltext {
+  display: flex;
+  font-size: auto;
+  font-weight: bold;
+  color: #df1212;
+  margin-top: 5px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 30px rgba(245, 15, 15, 0.795);
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.pai {
+ padding: 40px; 
+ display: flex;
+ max-height: 100vh;
+ flex-direction: column;
+ gap: 100px;
+ 
+}
+
+
+#carrossel-img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#carrossel-img img{
+  max-width: 100%;
+  height: auto;
+  display: none;
+  animation: mudarImagem 0.7s;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+#carrossel-img img.ativo{
+display: block;
+}
+
+@keyframes mudarImagem{
+  from{
+      opacity: 0.85;
+  }
+  to{
+      opacity: 1;
+  }
+}

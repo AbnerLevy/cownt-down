@@ -1,0 +1,12 @@
+
+@media (max-width:376px) {
+    .pai {
+        padding: 20px; 
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+        background: linear-gradient(to bottom, #111111, #8a8a8a);
+       }
+}
+
