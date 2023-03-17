@@ -83,6 +83,12 @@ body{
 display: block;
 }
 
+#carrossel-img img.red{
+  object-fit: cover;
+  max-width: 1080px;
+  min-height: 100vh;
+  }
+
 @keyframes mudarImagem{
   from{
       opacity: 0.85;
