@@ -56,15 +56,13 @@ body{
  max-height: 100vh;
  flex-direction: column;
  gap: 100px;
- 
+ background: linear-gradient(to bottom, #111111, #8a8a8a);
 }
 
 
 #carrossel-img {
   display: flex;
   justify-content: center;
-  overflow: hidden;
-  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -76,7 +74,7 @@ body{
   animation: mudarImagem 0.7s;
   left: 0;
   top: 0;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 #carrossel-img img.ativo{
@@ -91,7 +89,7 @@ display: block;
 
 @keyframes mudarImagem{
   from{
-      opacity: 0.85;
+      opacity: 0.75;
   }
   to{
       opacity: 1;
