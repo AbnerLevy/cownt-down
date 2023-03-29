@@ -10,3 +10,49 @@
        }
 }
 
+@media (max-width: 286px) {
+
+      .days{
+        color: #ec0b0b;
+        font-weight: bold;
+        font-size: 3vw;
+      }
+      .hours{
+        color: #ec0b0b;
+        font-weight: bold;
+        font-size: 3vw;
+      }
+      .minutes{
+        color: #ec0b0b;
+        font-weight: bold;
+        font-size: 3vw;
+      }
+      .seconds{
+        color: #ec0b0b;
+        font-weight: bold;
+        font-size: 3vw;
+      }
+      
+      .timer {
+        max-width: 40%;
+        padding: 3%;
+        background-color: #e9dcdc;
+        border-radius: 3px;
+        margin: 5%;
+        text-align: center;
+      }
+        
+      .smalltext {
+        display: flex;
+        font-size: 3vw;
+        font-weight: bold;
+        color: #df1212;
+        margin-top: 2%;
+       
+      }
+          
+      
+
+
+
+}
